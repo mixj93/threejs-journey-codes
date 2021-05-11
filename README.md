@@ -44,3 +44,7 @@
   - 35 Importing and optimizing the scene (48m)
   - 36 Adding details to the scene (1h 34m)
   - 37 The end (3m)
+
+## Notes
+
+- matrices (plural of matrix)
