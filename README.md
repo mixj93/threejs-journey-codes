@@ -6,7 +6,7 @@
   - [x] 01 Introduction (18m)
   - [x] 02 What is WebGL and why use Three.js (23m)
   - [x] 03 Basic scene (36m)
-  - [ ] 04 Webpack (35m)
+  - [x] 04 Webpack (35m)
   - [ ] 05 Transform objects (46m)
   - [ ] 06 Animations (30m)
   - [ ] 07 Cameras (57m)
