@@ -7,13 +7,25 @@ const canvas = document.querySelector('canvas.webgl')
 // Scene
 const scene = new THREE.Scene()
 
+// Axes helper
+// https://threejs.org/docs/#api/en/helpers/AxesHelper
+// The X axis is red. The Y axis is green. The Z axis is blue.
+const axesHelper = new THREE.AxesHelper(3)
+scene.add(axesHelper)
+
 /**
  * Objects
  */
 const group = new THREE.Group()
-group.position.y = 1
-group.scale.y = 2
-group.rotation.y = 1
+group.position.x = 0.7
+group.position.y = -0.6
+group.position.z = 1
+group.scale.x = 2
+group.scale.y = 0.25
+group.scale.z = 0.5
+group.rotation.x = Math.PI * 0.25
+group.rotation.y = Math.PI * 0.25
+
 scene.add(group)
 
 const cube1 = new THREE.Mesh(new THREE.BoxGeometry(1, 1, 1), new THREE.MeshBasicMaterial({ color: 0xff0000 }))
@@ -27,12 +39,6 @@ const cube3 = new THREE.Mesh(new THREE.BoxGeometry(1, 1, 1), new THREE.MeshBasic
 cube3.position.x = 2
 group.add(cube3)
 
-// Axes helper
-// https://threejs.org/docs/#api/en/helpers/AxesHelper
-// The X axis is red. The Y axis is green. The Z axis is blue.
-const axesHelper = new THREE.AxesHelper(3)
-scene.add(axesHelper)
-
 /**
  * Sizes
  */
@@ -45,7 +51,7 @@ const sizes = {
  * Camera
  */
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
-camera.position.z = 3
+camera.position.z = 10
 scene.add(camera)
 
 // camera.lookAt(mesh.position)
