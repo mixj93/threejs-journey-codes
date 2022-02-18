@@ -15,10 +15,7 @@ const mesh = new THREE.Mesh(geometry, material)
 scene.add(mesh)
 
 // Sizes
-const sizes = {
-  width: 800,
-  height: 600
-}
+const sizes = { width: 600, height: 400 }
 
 // Camera
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
@@ -34,7 +31,7 @@ renderer.setSize(sizes.width, sizes.height)
 // Clock
 // const clock = new THREE.Clock()
 
-gsap.to(mesh.position, { duration: 1, delay: 1, x: 2 })
+gsap.to(mesh.position, { duration: 5, delay: 1, x: 2 })
 
 // Animations
 const tick = () => {
