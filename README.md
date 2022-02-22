@@ -9,7 +9,7 @@
   - [x] 04 Webpack (35m)
   - [x] 05 Transform objects (46m)
   - [x] 06 Animations (30m)
-  - [ ] 07 Cameras (57m)
+  - [x] 07 Cameras (57m)
   - [ ] 08 Fullscreen and resizing (30m)
   - [ ] 09 Geometries (35m)
   - [ ] 10 Debug UI (38m)
