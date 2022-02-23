@@ -11,7 +11,7 @@
   - [x] 06 Animations (30m)
   - [x] 07 Cameras (57m)
   - [x] 08 Fullscreen and resizing (30m)
-  - [ ] 09 Geometries (35m)
+  - [x] 09 Geometries (35m)
   - [ ] 10 Debug UI (38m)
   - [ ] 11 Textures (1h14m)
   - [ ] 12 Materials (1h21m)
