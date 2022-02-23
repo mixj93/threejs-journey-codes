@@ -10,7 +10,7 @@
   - [x] 05 Transform objects (46m)
   - [x] 06 Animations (30m)
   - [x] 07 Cameras (57m)
-  - [ ] 08 Fullscreen and resizing (30m)
+  - [x] 08 Fullscreen and resizing (30m)
   - [ ] 09 Geometries (35m)
   - [ ] 10 Debug UI (38m)
   - [ ] 11 Textures (1h14m)
