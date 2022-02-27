@@ -13,8 +13,8 @@
   - [x] 08 Fullscreen and resizing (30m)
   - [x] 09 Geometries (35m)
   - [x] 10 Debug UI (38m)
-  - [ ] 11 Textures (1h14m)
-  - [ ] 12 Materials (1h21m)
+  - [x] 11 Textures (1h14m)
+  - [x] 12 Materials (1h21m)
   - [ ] 13 3D Text (44m)
   - [ ] 14 Go live (24m)
 - 02 Classic techniques
