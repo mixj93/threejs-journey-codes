@@ -15,10 +15,10 @@
   - [x] 10 Debug UI (38m)
   - [x] 11 Textures (1h14m)
   - [x] 12 Materials (1h21m)
-  - [ ] 13 3D Text (44m)
-  - [ ] 14 Go live (24m)
+  - [x] 13 3D Text (44m)
+  - [x] 14 Go live (24m)
 - 02 Classic techniques
-  - [ ] 15 Lights (43m)
+  - [x] 15 Lights (43m)
   - [ ] 16 Shadows (1h)
   - [ ] 17 Haunted House (1h15m)
   - [ ] 18 Particles (49m)
